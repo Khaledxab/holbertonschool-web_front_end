@@ -3,12 +3,12 @@ html {
 	font-size: 62.5%;
 }
 body {
-	color: #161616;
+	color: var(--text-color);
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
 }
 a {
-	color: #161616;
+	color: var(--text-color);
 }
 .visually-hidden {
 	display: none;
