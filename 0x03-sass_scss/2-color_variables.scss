@@ -1,0 +1,15 @@
+/* Colors */
+/* variables */
+$text-color: #3D3D3D;
+$bk-color: #6D6D6D;
+/* prog */
+body {
+	color: $text-color;
+	background-color: $bk-color;
+}
+p {
+	color: $text-color;
+}
+h2 {
+	background-color: $bk-color;
+}
