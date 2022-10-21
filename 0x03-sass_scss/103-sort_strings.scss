@@ -1,0 +1,12 @@
+/*bubble sort */
+@import "103-sort_list.scss";
+
+@mixin sort_strings($list) {
+    @include sort_list($list);
+    @for $i from 1 through length($list) {
+        @if type-of(nth($list, $i)) != string {
+            @return "Error: not a string";
+        }
+    }
+    @return $list;
+}
